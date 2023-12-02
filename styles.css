@@ -1,3 +1,8 @@
+@font-face{
+    font-family: MeslonNerd;
+    src: url(./assets/fonts/Meslo/MesloLGLNerdFont-Regular.ttf) format(ttf);
+}
+
 .profile{
     display: block;
     margin-left: auto;
@@ -20,9 +25,5 @@ h2{
     margin-top: 0px;
 }
 .main{
-    color: #0A2647;
-}
-@font-face{
-    font-family: MeslonNerd;
-    src: url(./assets/fonts/Meslo/MesloLGLNerdFont-Regular.ttf) format(ttf);
+    color: darkgreen;
 }
