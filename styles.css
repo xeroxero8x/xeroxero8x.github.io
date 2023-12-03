@@ -1,7 +1,3 @@
-@font-face{
-    font-family: MeslonNerd;
-    src: url(./assets/fonts/Meslo/MesloLGLNerdFont-Regular.ttf) format(ttf);
-}
 
 .profile{
     display: block;
@@ -29,4 +25,22 @@ h2{
 }
 .main{
     color: darkgreen;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+nav ul li a {
+    text-align: none;
+    color: black;
+    font-weight: bold;
 }
