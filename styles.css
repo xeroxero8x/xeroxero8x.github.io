@@ -57,11 +57,13 @@ nav img{
 h2 p{
     padding: 20px;
 }
-header nav i {
+#menu {
     font-size: 25px;
     cursor: pointer;
     display: none;
+    z-index: 10001;
 }
+/*Mail me button*/
 .mail-btn{
     display: inline-block;
     border: 2px solid rgb(255, 102, 0);
