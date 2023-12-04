@@ -1,9 +1,13 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .profile{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 h1{
@@ -12,7 +16,6 @@ h1{
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-family: MeslonNerd;
 }
 .intro{
     display: inline-block;
@@ -23,8 +26,8 @@ h2{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.main{
-    color: darkgreen;
+.orange{
+    color: orangered;
 }
 nav{
     display: flex;
@@ -40,7 +43,43 @@ nav ul li{
     margin: 10px 10px;
 }
 nav ul li a {
-    text-align: none;
+    text-decoration: none;
     color: black;
     font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(255, 102, 0);
+}
+nav img{
+    width: 180px;
+    height: 70px;
+}
+h2 p{
+    padding: 20px;
+}
+header nav i {
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.mail-btn{
+    display: inline-block;
+    border: 2px solid rgb(255, 102, 0);
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all .50s ease;
+    color: rgb(255, 102, 0);
+}
+header div a{
+    text-decoration: none;
+    color: rgb(255, 102, 0);
+}
+header div a:hover{
+    color: black
+}
+.mail-btn:hover{
+    background: rgb(255, 102, 0);
+    color: black;
+    box-shadow: 0 0 20px rgb(255, 102, 0);
+    transform: scale(1.1) ;
 }
